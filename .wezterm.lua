@@ -12,13 +12,6 @@ config.color_scheme = 'Sakura (base16)'
 -- 背景透過
 config.window_background_opacity = 0.9
 
--- 起動時に最大化
-local mux = wezterm.mux
-wezterm.on("gui-startup", function(cmd)
-  local tab, pane, window = mux.spawn_window(cmd or {})
-  window:gui_window():toggle_fullscreen()
-end)
-
 -- ショートカットキーの作成
 local act = wezterm.action
 config.keys = {
