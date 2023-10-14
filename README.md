@@ -1,1 +1,1 @@
-# wezterm-setting
+# lua
