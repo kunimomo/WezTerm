@@ -7,7 +7,7 @@ if wezterm.config_builder then
 end
 
 -- カラースキームの設定
-config.color_scheme = 'Sakura (base16)'
+config.color_scheme = 'tokyonight_night'
 
 -- 背景透過
 config.window_background_opacity = 0.9
