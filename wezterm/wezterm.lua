@@ -7,7 +7,7 @@ if wezterm.config_builder then
 end
 
 -- カラースキームの設定
-config.color_scheme = 'tokyonight_night'
+config.color_scheme = 'iceberg-dark'
 
 -- 背景透過
 config.window_background_opacity = 0.9
@@ -40,5 +40,13 @@ config.font = wezterm.font("HackGen", {weight="Regular", stretch="Normal", style
 
 -- フォントサイズの設定
 config.font_size = 16
+
+
+-- カーソルの色設定を追加
+config.colors = {
+  cursor_bg = '#00FF00',
+  cursor_fg = '#000000',
+  cursor_border = '#00FF00',
+}
 
 return config
