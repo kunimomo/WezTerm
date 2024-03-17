@@ -10,7 +10,7 @@ end
 config.color_scheme = 'iceberg-dark'
 
 -- 背景透過
-config.window_background_opacity = 0.9
+config.window_background_opacity = 0.8
 
 -- ショートカットキーの作成
 local act = wezterm.action
